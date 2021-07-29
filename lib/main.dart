@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/Counter_screen.dart';
 import 'package:flutter_practice/Home_screen.dart';
 import 'package:flutter_practice/Login_screen.dart';
 import 'package:flutter_practice/Users_Screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: usersScreen(),
+      home: counter_screen(),
     );
   }
 }
