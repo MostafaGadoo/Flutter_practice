@@ -51,6 +51,7 @@ class _counter_screenState extends State<counter_screen> {
               ),
             ),
             TextButton(
+
                 onPressed: (){
                   setState(() {
                     counter++;
